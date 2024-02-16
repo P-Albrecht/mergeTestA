@@ -12,7 +12,7 @@ import { LlamaService } from '../llama.service';
 export class ChatComponent implements OnInit {
 
   chat = [
-    {type: "response", text:'Hallo, can I help You?', hasSpace:'hasNoSpace'},
+    {type: "response", text:'Hallo, can I help You? !!!', hasSpace:'hasNoSpace'},
   ];
 
   loading = false;
