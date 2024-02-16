@@ -20,11 +20,13 @@ export class ChatComponent implements OnInit {
   constructor(private llamaService: LlamaService)
     {
       console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+      console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
       this.llamaService.test()
         .subscribe(
           (response) => {
             console.log(response.data)
+            console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
           })
     }
