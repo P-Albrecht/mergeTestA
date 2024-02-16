@@ -7,8 +7,15 @@ import { Component } from '@angular/core';
 })
 export class EnviromentComponent {
 
+  constructor() {}
 
   onClickMe() {
-    console.log('...........')
+     console.log('...........')
+  }
+
+  treeTreeViewComponent = [{name: 'sssss'}, {name: 'sssss'}]
+
+  nodeSelectEventTreeViewComponent(response: any) {
+    console.log(response)
   }
 }
