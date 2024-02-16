@@ -1,5 +1,7 @@
 <div class="enviroment-container">
-  <!--<app-element></app-element>-->
+    <app-heroes   ></app-heroes>
 </div>
-
+<div class="enviroment-container">
+    <app-tree-view  [tree]=this.treeTreeViewComponent (nodeSelectEvent)="nodeSelectEventTreeViewComponent($event)"  ></app-tree-view>
+</div>
 <button type="button" (click)="onClickMe()">Click me!</button>
